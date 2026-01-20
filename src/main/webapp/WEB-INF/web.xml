@@ -7,13 +7,13 @@
          version="6.0">
 
     <servlet>
-        <servlet-name>SimpleInterest</servlet-name>
-        <servlet-class>SimpleInterest</servlet-class>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>WelcomeServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>SimpleInterest</servlet-name>
-        <url-pattern>/SimpleInterest</url-pattern>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/WelcomeServlet</url-pattern>
     </servlet-mapping>
 
 </web-app>
